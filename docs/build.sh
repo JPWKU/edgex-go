@@ -1,11 +1,11 @@
 #!/bin/sh
 set -e
 
-# Copy in service RAML files 
+# Copy in service RAML files
 
-cp ../core/data/raml/*.raml ./core/data/
-cp ../core/metadata/raml/*.raml ./core/metadata/
-cp ../core/command/raml/*.raml ./core/command/
+cp external/raml/core/data/raml/*.raml ./core/data/
+cp external/raml/core/metadata/raml/*.raml ./core/metadata/
+cp external/raml/core/command/raml/*.raml ./core/command/
 cp ../support/logging/raml/*.raml ./support/logging/
 cp ../export/client/raml/*.raml ./export/client/
 
