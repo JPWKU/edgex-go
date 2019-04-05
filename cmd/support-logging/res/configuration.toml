@@ -21,7 +21,7 @@ File = './logs/edgex-support-logging.log'
 
 [Databases]
   [Databases.Primary]
-  Host = 'edgex-mongo'
+  Host = '192.168.60.12'
   Name = 'logging'
   Password = ''
   Port = 27017
