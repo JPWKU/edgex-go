@@ -4,7 +4,7 @@ Persistence = 'database'
 BootTimeout = 30000
 ClientMonitor = 15000
 CheckInterval = '10s'
-Host = 'localhost'
+Host = 'support-logging'
 Port = 48061
 Protocol = 'http'
 ReadMaxLimit = 100
@@ -21,7 +21,7 @@ File = './logs/edgex-support-logging.log'
 
 [Databases]
   [Databases.Primary]
-  Host = 'localhost'
+  Host = 'edgex-mongo'
   Name = 'logging'
   Password = ''
   Port = 27017
