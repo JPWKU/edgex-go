@@ -21,10 +21,10 @@ File = './logs/edgex-support-logging.log'
 
 [Databases]
   [Databases.Primary]
-  Host = '192.168.60.12'
+  Host = 'localhost'
   Name = 'logging'
   Password = ''
-  Port = 27017
+  Port = 9999
   Username = ''
   Timeout = 5000
   Type = 'mongodb'
