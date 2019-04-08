@@ -1,4 +1,4 @@
-Persistence = 'database'
+Persistence = 'file'
 
 [Service]
 BootTimeout = 30000
