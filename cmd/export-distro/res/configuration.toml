@@ -24,18 +24,18 @@ Level = 'INFO'
 [Clients]
   [Clients.Export]
   Protocol = 'http'
-  Host = 'localhost'
-  Port = 48071
+  Host = 'export-client.edgex.dev'
+  Port = 9999
 
   [Clients.Logging]
   Protocol = 'http'
-  Host = 'localhost'
-  Port = 48061
+  Host = 'support-logging.edgex.dev'
+  Port = 9999
 
   [Clients.CoreData]
   Protocol = 'http'
-  Host = 'localhost'
-  Port = 48080
+  Host = 'core-data.edgex.dev'
+  Port = 9999
 
 [Certificates]
   [Certificates.MQTTS]

@@ -22,12 +22,12 @@ Level = 'INFO'
 [Clients]
   [Clients.Logging]
   Protocol = 'http'
-  Host = 'localhost'
-  Port = 48061
+  Host = 'support-logging.edgex.dev'
+  Port = 9999
   [Clients.Notifications]
   Protocol = 'http'
-  Host = 'localhost'
-  Port = 48060
+  Host = 'support-notifications.edgex.dev'
+  Port = 9999
 
 [Databases]
   [Databases.Primary]

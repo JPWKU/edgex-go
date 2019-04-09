@@ -22,10 +22,10 @@ Level = 'INFO'
 [Clients]
   [Clients.Metadata]
   Protocol = 'http'
-  Host = 'localhost'
-  Port = 48081
+  Host = 'core-metadata.edgex.dev'
+  Port = 9999
 
   [Clients.Logging]
   Protocol = 'http'
-  Host = 'localhost'
-  Port = 48061
+  Host = 'support-logging.edgex.dev'
+  Port = 9999
