@@ -38,7 +38,7 @@ Level = 'INFO'
 
 [Databases]
   [Databases.Primary]
-  Host = 'localhost'
+  Host = 'mongo.edgex.dev'
   Name = 'coredata'
   Password = ''
   Port = 27017

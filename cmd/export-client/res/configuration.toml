@@ -32,7 +32,7 @@ Level = 'INFO'
 
 [Databases]
   [Databases.Primary]
-  Host = 'localhost'
+  Host = 'mongo.edgex.dev'
   Name = 'exportclient'
   Password = ''
   Port = 27017
